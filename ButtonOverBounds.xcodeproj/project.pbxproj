@@ -14,6 +14,7 @@
 		F65561F626411FAE00A21BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65561F526411FAE00A21BED /* Assets.xcassets */; };
 		F65561F926411FAE00A21BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65561F726411FAE00A21BED /* LaunchScreen.storyboard */; };
 		F65561FC26411FAE00A21BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65561FB26411FAE00A21BED /* main.m */; };
+		F65562072641200B00A21BED /* ConterntView.m in Sources */ = {isa = PBXBuildFile; fileRef = F65562062641200B00A21BED /* ConterntView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F65561F826411FAE00A21BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65561FA26411FAE00A21BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F65561FB26411FAE00A21BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65562052641200B00A21BED /* ConterntView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConterntView.h; sourceTree = "<group>"; };
+		F65562062641200B00A21BED /* ConterntView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConterntView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +64,29 @@
 		F65561E826411FAE00A21BED /* ButtonOverBounds */ = {
 			isa = PBXGroup;
 			children = (
+				F65562052641200B00A21BED /* ConterntView.h */,
+				F65562062641200B00A21BED /* ConterntView.m */,
+				F65561EF26411FAE00A21BED /* ViewController.h */,
+				F65561F026411FAE00A21BED /* ViewController.m */,
+				F655620326411FC900A21BED /* other */,
+			);
+			path = ButtonOverBounds;
+			sourceTree = "<group>";
+		};
+		F655620326411FC900A21BED /* other */ = {
+			isa = PBXGroup;
+			children = (
 				F65561E926411FAE00A21BED /* AppDelegate.h */,
 				F65561EA26411FAE00A21BED /* AppDelegate.m */,
 				F65561EC26411FAE00A21BED /* SceneDelegate.h */,
 				F65561ED26411FAE00A21BED /* SceneDelegate.m */,
-				F65561EF26411FAE00A21BED /* ViewController.h */,
-				F65561F026411FAE00A21BED /* ViewController.m */,
 				F65561F226411FAE00A21BED /* Main.storyboard */,
 				F65561F526411FAE00A21BED /* Assets.xcassets */,
 				F65561F726411FAE00A21BED /* LaunchScreen.storyboard */,
 				F65561FA26411FAE00A21BED /* Info.plist */,
 				F65561FB26411FAE00A21BED /* main.m */,
 			);
-			path = ButtonOverBounds;
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F65561F126411FAE00A21BED /* ViewController.m in Sources */,
+				F65562072641200B00A21BED /* ConterntView.m in Sources */,
 				F65561EB26411FAE00A21BED /* AppDelegate.m in Sources */,
 				F65561FC26411FAE00A21BED /* main.m in Sources */,
 				F65561EE26411FAE00A21BED /* SceneDelegate.m in Sources */,
@@ -293,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC4C6H8RR8;
-				INFOPLIST_FILE = ButtonOverBounds/Info.plist;
+				INFOPLIST_FILE = ButtonOverBounds/other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC4C6H8RR8;
-				INFOPLIST_FILE = ButtonOverBounds/Info.plist;
+				INFOPLIST_FILE = ButtonOverBounds/other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
